@@ -26,14 +26,18 @@ layout: default
       rounded' %}
           {% endif %}
           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+            30vw, 95vw"{% endcapture %}
           {%
-            include figure.liquid path = profile_image_path class = profile_image_class sizes = sizes alt = page.profile.image
-            cache_bust = true
+                  include figure.liquid path = profile_image_path class = profile_image_class sizes = sizes alt = page.profile.image
+                  cache_bust = true
           %}
         {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+        <!-- Social -->
+        {% if page.social %}
+          <div class="social">
+            <div class="contact-icons">{% include social.liquid %}</div>
+            <div class="contact-note">{{ site.contact_note }}</div>
+          </div>
         {% endif %}
       </div>
     {% endif %}
@@ -62,15 +66,6 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
     {% endif %}
   </article>
 </div>
