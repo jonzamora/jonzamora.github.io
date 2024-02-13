@@ -144,11 +144,11 @@
     {% if entry.year %}
       {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
     {% endif %}
-    {% if entry.extra != '' %}
-      {% capture entryextra %}{{ " " }}<p style="color:orange;display: inline;"><b>{{entry.extra}}</b></p>{% endcapture %}
+    {% if entry.papertype != '' %}
+      {% capture entrypapertype %}{{ " " }}<p style="color:orange;display: inline;"><b>{{entry.papertype}}</b></p>{% endcapture %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" and entrypapertype != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{{ entrypapertype }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
