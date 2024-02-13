@@ -1,9 +1,6 @@
 ---
-layout: cv
-permalink: /cv/
+permalink: assets/pdf/Jonathan_Zamora_CV.pdf
 title: cv
 nav: true
 nav_order: 3
-cv_pdf: Jonathan_Zamora_CV.pdf
-description: Find my CV here!
 ---
