@@ -144,9 +144,9 @@
     {% if entry.year %}
       {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
     {% endif %}
-    {%- if entry.category != '' -%}
-      {%- capture entrycategory -%}{{ " " }}<p style="color:orange;display: inline;"><b>{{entry.category}}</b></p>{%- endcapture -%}
-    {%- endif -%}
+    {% if entry.extra != '' %}
+      {% capture entryextra %}{{ " " }}<p style="color:orange;display: inline;"><b>{{entry.extra}}</b></p>{% endcapture %}
+    {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
