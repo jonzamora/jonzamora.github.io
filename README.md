@@ -2,4 +2,4 @@
 
 This site is based on the [al-folio](https://github.com/alshedivat/al-folio) template.
 
-Last Updated: Feb. 13th, 2024
+Last Updated: Feb. 19th, 2024
