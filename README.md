@@ -4,7 +4,7 @@
 
 This site is based on the [al-folio](https://github.com/alshedivat/al-folio) template.
 
-Last Updated: April 8th, 2024
+Last Updated: May 8th, 2024
 
 ## Notes
 
