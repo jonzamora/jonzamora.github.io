@@ -20,6 +20,6 @@ I am an MS in Computer Science student at [USC](https://www.usc.edu/), and I am 
 
 I recently completed my undergraduate studies at [UC San Diego](https://ucsd.edu/), where I earned a BS in Computer Science in June 2023.
 
-I am advised by Prof. [Yue Wang](https://yuewang.xyz/) at USC, and have worked under Prof. [Xiaolong Wang](https://xiaolonw.github.io/) at UC San Diego. I am interested in building intelligent agents capable of generalization, long-horizon planning and control, and continuous adaptation in diverse and complex environments. To this end, my research interests include **deep reinforcement learning**, **imitation learning**, **robotics**, **computer vision**, and **machine learning**.
+I am advised by Prof. [Yue Wang](https://yuewang.xyz/) and Prof. [Daniel Seita](https://danielseita.github.io/) at USC, and have worked under Prof. [Xiaolong Wang](https://xiaolonw.github.io/) at UC San Diego. I am interested in building intelligent agents capable of generalization, long-horizon planning and control, and continuous adaptation in diverse and complex environments. To this end, my research interests include **deep reinforcement learning**, **imitation learning**, **robotics**, **computer vision**, and **machine learning**.
 
 Outside of research and classes, I enjoy doing leadership and outreach activities which promote Artificial Intelligence (**AI**) and Diversity, Equity, and Inclusion (**DEI**) in Science, Technology, Engineering, and Mathematics (**STEM**).
