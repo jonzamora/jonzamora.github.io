@@ -1,7 +1,7 @@
 // Profile
 
 var counter = 0;
-var hoverImages = ["assets/img/profile-picture.jpg"];
+var hoverImages = ["assets/img/profile-picture.png"];
 
 var profile_credit = document.getElementById("profile-credit");
 var profile = document.getElementById("profile");
@@ -12,7 +12,7 @@ function profile_enter() {
 }
 
 function profile_leave() {
-  profile.src = "assets/img/profile-picture.jpg";
+  profile.src = "assets/img/profile-picture.png";
 }
 
 profile_credit.addEventListener("mouseenter", profile_enter);
